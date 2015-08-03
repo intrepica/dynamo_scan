@@ -50,3 +50,5 @@ var scanAll = exports.scanAll = function scanAll(attributes, throttle, iterator,
     done
   );
 }
+
+exports.dynamo = dynamodb;
