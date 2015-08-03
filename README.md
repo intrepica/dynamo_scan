@@ -1,6 +1,9 @@
 
 ## Dynamo Scan
 
+[![Build Status](https://semaphoreci.com/api/v1/projects/332eaa5b-1306-4842-8c92-6e43944125f2/500398/badge.svg)](https://semaphoreci.com/lp/dynamo_scan)      
+
+
 Calls the aws-sdk's scan at a given throttle and calls an iterator function in parallel (max == throttle).
 
 The following environment variables must be set:
