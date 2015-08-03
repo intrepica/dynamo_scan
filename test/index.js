@@ -123,7 +123,7 @@ describe('dynamo_scan', function(){
           })
           .reply(200, {
             "Items":items2,
-            "LastEvaluatedKey": lastKey(null)
+            "LastEvaluatedKey": null
           });  
 
       }); 

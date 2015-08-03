@@ -35,10 +35,8 @@ var scanAll = exports.scanAll = function scanAll(attributes, throttle, iterator,
     function () { 
       if (lastEvaluatedKey === false) {
         return true;
-      }
-      var key = lastEvaluatedKey[Object.keys(lastEvaluatedKey)];
-      var type = Object.keys(key);      
-      return key[type] !== null; 
+      }      
+      return !!lastEvaluatedKey; 
     },
     function(cb) {
       scan(attributes, throttle, lastEvaluatedKey, function(err, rows, lastKey) {
