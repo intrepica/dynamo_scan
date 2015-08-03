@@ -1,0 +1,26 @@
+{
+  "name": "@literacy_planet/dynamo_scan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Tim Fairbrother <tdfairbrother@gmail.com>",
+  "scripts": {
+    "run": "index.js",
+    "test": "node_modules/.bin/mocha test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intrepica/dynamo_scan"
+  },  
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.0",
+    "aws-sdk": "^2.1.42"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.2.4",
+    "sinon": "^1.14.1",
+    "nock": "^2.9.1"    
+  }
+}
