@@ -1,6 +1,8 @@
 
 ## Dynamo Scan
 
+Calls the aws-sdk's scan at a given throttle and calls an iterator function in parallel (max == throttle).
+
 The following environment variables must be set:
 ```
 DYNAMO_REGION
