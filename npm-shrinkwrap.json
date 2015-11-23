@@ -1,6 +1,6 @@
 {
   "name": "@literacyplanet/dynamo_scan",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "dependencies": {
     "async": {
       "version": "1.4.0",
